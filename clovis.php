@@ -15,13 +15,6 @@ $postData = json_decode(file_get_contents('php://input'), true);
 
 file_put_contents('data.txt', json_encode($postData, true), FILE_APPEND);
 
-
-if ($postData === null) {
-    header("HTTP/1.1 400 Bad Request");
-    echo "Invalid JSON data";
-    exit();
-}
-
 // Extraia os dados relevantes do POST
 $points = $postData['Payload']['PointsBalance']['PointsBalance'];
 $customerId = $postData['Payload']['Customer']['Id'];
