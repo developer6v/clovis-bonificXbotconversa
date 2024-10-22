@@ -1,6 +1,6 @@
 <?php
 
-/* Informações da API Bonifiq.
+// Informações da API Bonifiq.
 $apiUrlBonifiq = "https://api.bonifiq.com.br/v1/pvt/";
 $credentialName = "APIUSER-Cloviscala-6e749e525c2e4a66990811ac4d782ebe";
 $credentialToken = "BHN4U95FMAFGMRUXMVH7LLPSSCJ52V";
@@ -109,6 +109,6 @@ function sendBotConversa($customer, $apiUrlBotConversa, $tokenBotConversa) {
 $botconversa = sendBotConversa($customerStructure, $apiUrlBotConversa, $tokenBotConversa);
 
 header("Content-Type: text/plain");
-echo $botconversa;*/
+echo $botconversa;
 
 ?>
