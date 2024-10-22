@@ -44,7 +44,6 @@ function getCustomerData($apiUrlGetCustomer, $tokenBonifiq) {
         exit();
     }
     curl_close($ch);
-    echo $response;
     return $response;
 }
 
