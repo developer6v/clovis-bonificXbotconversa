@@ -23,8 +23,8 @@ if ($postData === null) {
 }
 
 // Extraia os dados relevantes do POST
-$points = $postData['PointsBalance']['PointsBalance'];
-$customerId = $postData['Customer']['Id'];
+$points = $postData['Payload']['PointsBalance']['PointsBalance'];
+$customerId = $postData['Payload']['Customer']['Id'];
 
 // Função para obter dados do cliente usando cURL
 function getCustomerData($apiUrlGetCustomer, $tokenBonifiq) {
