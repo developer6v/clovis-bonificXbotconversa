@@ -23,7 +23,7 @@ if ($postData === null) {
 }
 
 // Extraia os dados relevantes do POST
-$points = $postData['Payload']['PointsBalance']['PointsBalance'];
+$points = $postData['PointsBalance']['PointsBalance'];
 $customerId = $postData['Payload']['Customer']['Id'];
 
 // Função para obter dados do cliente usando cURL
