@@ -2,8 +2,8 @@
 
 // Informações da API Bonifiq.
 $apiUrlBonifiq = "https://api.bonifiq.com.br/v1/pvt/";
-$credentialName = "APIUSER-Cloviscala-6e749e525c2e4a66990811ac4d782ebe";
-$credentialToken = "BHN4U95FMAFGMRUXMVH7LLPSSCJ52V";
+$credentialName = "APIUSER-Cloviscala-33cfe933174a499cad6497528d95b0dd";
+$credentialToken = "V54EK6WFCUGTFFVWLQ3S7LNRSJA8KS";
 $tokenBonifiq = base64_encode($credentialName . ":" . $credentialToken);
 
 // Informações da API BotConversa
